@@ -3,7 +3,8 @@ body {
       font-size: 40px;
       vertical-align: middle;
     }
-    .image {
+
+.image {
       width: 80%; 
       margin: auto;
       display: block;

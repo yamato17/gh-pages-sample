@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="body1.css">
 <link rel="manifest" href="./manifest.json">
 <script>
     // service workerが有効なら、service-worker.js を登録します
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./service-worker.js').then(function() { console.log('Service Worker Registered'); });
    }
-  </script>
+</script>
+<link rel="stylesheet" href="body1.css">
 <title>TipsNote : GitHub Pages Sample</title>
 </head>
 
